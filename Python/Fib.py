@@ -11,7 +11,7 @@ def fibonacci(n):
         return fib_series
 
 # Get user input for the number of terms
-num_terms = int(input("Enter the number of Fibonacci terms to generate: "))
+num_terms = int(input("Enter the number of Fibonacci terms you want to  generate: "))
 
 # Print the Fibonacci series
 result = fibonacci(num_terms)
