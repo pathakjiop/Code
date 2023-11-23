@@ -1,7 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main()
-{
-    printf("hello you are now looking in my repository");
+int main() {
+    printf("hello world");
     return 0;
 }
