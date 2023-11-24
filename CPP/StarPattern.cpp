@@ -11,7 +11,7 @@ void print_star_pattern(int rows) {
 
 int main() {
     int rows;
-    std::cout << "Enter the number of rows: ";
+    std::cout << "Enter the number of rows:-";
     std::cin >> rows;
     print_star_pattern(rows);
     return 0;
