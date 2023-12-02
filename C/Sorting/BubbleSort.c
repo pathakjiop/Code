@@ -23,20 +23,31 @@ void printArray(int arr[], int size) {
 }
 
 int main() {
-    // Declare and initialize an array
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    // Get the size of the array from the user
+    int size;
+    printf("Enter the size of the array: ");
+    scanf("%d", &size);
+
+    // Declare an array of the given size
+    int arr[size];
+
+    // Get array elements from the user
+    printf("Enter the elements of the array:\n");
+    for (int i = 0; i < size; i++) {
+        printf("Element %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
 
     // Display the original array
     printf("Original array: ");
-    printArray(arr, n);
+    printArray(arr, size);
 
     // Perform the sorting
-    bubbleSort(arr, n);
+    bubbleSort(arr, size);
 
     // Display the sorted array
     printf("Sorted array: ");
-    printArray(arr, n);
+    printArray(arr, size);
 
     return 0;
 }
