@@ -33,6 +33,7 @@ int main() {
     print_star_pattern(rows);
     return 0;
 }*/
+
 /*#include <stdio.h>
 
 void print_star_pattern(int rows) {
