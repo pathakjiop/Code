@@ -25,7 +25,7 @@ int main() {
         }
     } else {
         printf("Error: Invalid operator\n");
-        return 1; // Exit with an error code
+        return 1; // Exit with an error code 
     }
 
     printf("Result: %lf\n", result);
