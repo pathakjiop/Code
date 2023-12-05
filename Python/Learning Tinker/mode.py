@@ -2,7 +2,7 @@ from customtkinter import *
 from tkinter import *
 
 def on_button_click():
-    print("Button clicked!")
+    print("Button clicked!!!!")
 
 def Close(): 
     CTk.destroy(app)
