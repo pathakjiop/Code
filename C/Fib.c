@@ -9,7 +9,7 @@ void fibonacci(int n){
         fib[i] = fib[i - 1] + fib[i - 2];
     }
 
-    printf("Fibonacci Series:- ");
+    printf("Fibonacci Series:-- ");
 
     for (int i = 0; i < n; i++){
         printf("%d, ", fib[i]);
