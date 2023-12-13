@@ -14,8 +14,6 @@ elif operator == '/':
     else:
         print("Error: Division by zero")
         exit(1)  # Exit with an error code
-else:
-    print("Error: Invalid operator")
-    exit(1)  # Exit with an error code
 
 print("Result:", result)
+
