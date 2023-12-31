@@ -1,6 +1,8 @@
-// Prompt the user for their age
-var age = parseInt(prompt("Enter your age:"));
+const prompt = require('prompt-sync')();
 
+// Prompt the user for their age
+var age = prompt("Enter your age:");
+3
 // Check if the input is a valid number
 if (!isNaN(age)) {
   if (age >= 18) {
