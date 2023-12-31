@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Prompt the user to enter a list of numbers separated by commas
 var userInput = prompt("Enter a list of numbers separated by commas:");
 
